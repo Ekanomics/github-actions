@@ -3,7 +3,7 @@ name: Hello World
 on: [push]
 
 jobs:
-  Explore-GitHub-Actions:
+  job1:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Hello World from GitHub Actions"
