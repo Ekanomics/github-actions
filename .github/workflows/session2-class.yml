@@ -22,7 +22,7 @@ jobs:
         run: |
           echo "Triggered by: ${{ github.event_name }}"
 
-      - name: Report Event
+      - name: Show Branch
         run: |
           echo "Branch: ${{ github.ref_name }}
 
